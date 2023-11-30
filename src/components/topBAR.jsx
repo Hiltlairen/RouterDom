@@ -22,9 +22,11 @@ function TopBar  ()  {
       
         <div className="navbar">
           <div className="centered">
-            {links.map(x => (
-              <Link to={x.href}>{x.name}</Link>
-            ))}
+          {links.map((x, index) => (
+            <button id="par" key={index} onClick={() => window.location.href = x.href}>
+              {x.name}
+          </button>
+          ))}
           </div>
       </div>
     )
