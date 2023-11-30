@@ -9,6 +9,10 @@ const links=[
         name:'Contacts',
         href:'/contacts',
     },
+    {
+        name:'Inicio',
+        href:'/inicio',
+    },
 ]
 const NavBar =() =>{
     return (
